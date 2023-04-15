@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  /* designing the navigation menu */
+  nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  
+  /* designing the logo */
+  nav img {
+    width: 150px;
+  }
+  
+  /* desiging the navigation menu links */
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 700;
+  }
+  
+  nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s; ;
+}
+a:hover{
+  color: #20bc7e;
+}
+
+  main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 31%;
+    margin-right: 31%;
+    margin-top: 10%;
+    /* display: flex; */
+  }
+
+.uptext h2{
+  color: #20bc7e;
+}
+.uptext p{
+  font-weight: 500;
+  margin-top: 3%;
+}
+
+
+.downcontent{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+
+.downcontent .box{
+  border: none;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.box span{
+  color: #20bc7e;
+  font-weight: 700;
+}
+.box p{
+  font-weight: 600;
+}
